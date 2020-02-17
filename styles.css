@@ -15,19 +15,24 @@ body {
     width: 80%;
     height: 95px;
     margin: 0 auto;
-    border: 1px dashed black;
 }
 
 .nav-links {
     display: flex;
     justify-content: space-around;
     width: 40%;
+    border: 1px dashed black;
+
 }
 
 .nav-links a{
+    width: 20%;
+    text-align: center;
     text-decoration: none;
     color: #252627;
-    padding: 8px;
+    border: 1px dashed blue;
+    box-sizing: border-box;
+
 }
 
 .logo{
@@ -59,6 +64,7 @@ body {
 .date p{
     padding-left: 8px;
     font-weight: bold;
+    border: 1px dashed blue;
 }
 
 .image img{
@@ -66,5 +72,80 @@ body {
     width: 100%;
 }
 
+.nav-toggle-container {
+    display: none;
+}
 
+.nav-search-container {
+    display: none;
+}
 
+@media (max-width: 1150px){
+    .date p{
+        font-size: 15px;
+        padding-left: 1px;
+    }
+
+    .nav-links a{
+        font-size: 15px;
+        padding: 3px;
+    }
+    .nav-links {
+        width: 60%;
+    }
+}
+
+@media (max-width: 620px){
+    .nav-bar{
+        width: 100%;
+        height: 30px;
+        box-shadow: 0px 2px #CCC;
+    }
+    .date {
+        display: none;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .logo {
+        width: 33%;
+        height: 100%;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    .nav-toggle-container {
+        display: block;
+        width: 33%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .nav-search-container {
+        display: flex;
+        justify-content: flex-end;
+        width: 33%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .nav-toggle-btn {
+        width: 30px;
+        height: 100%;
+        background-image: url("./assets/toggle.png");
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .nav-search-btn {
+        width: 30px;
+        height: 100%;
+        background-image: url("./assets/search.png");
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
