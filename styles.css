@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: space-around;
     width: 40%;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 
 }
 
@@ -30,7 +30,7 @@ body {
     text-align: center;
     text-decoration: none;
     color: #252627;
-    border: 1px dashed blue;
+    /* border: 1px dashed blue; */
     box-sizing: border-box;
 
 }
@@ -39,7 +39,7 @@ body {
     display: flex;
     width: 30%;
     height: 100%;
-    border: 1px dashed pink;
+    /* border: 1px dashed pink; */
 }
 
 .image{
@@ -48,7 +48,7 @@ body {
     align-items: center;
     width: 50%;
     height: 100%;
-    border: 1px dashed blue;
+    /* border: 1px dashed blue; */
 }
 
 .date{
@@ -58,13 +58,13 @@ body {
     flex-direction: column;
     width: 50%;
     height: 100%;
-    border: 1px dashed blue;
+    /* border: 1px dashed blue; */
 }
 
 .date p{
     padding-left: 8px;
     font-weight: bold;
-    border: 1px dashed blue;
+    /* border: 1px dashed blue; */
 }
 
 .image img{
