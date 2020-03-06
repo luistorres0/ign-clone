@@ -9,12 +9,18 @@ body {
 }
 
 .nav-bar{
+    position: sticky;
+    z-index: 1000;
+    padding-left: 20%;
+    padding-right: 20%;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
     height: 95px;
     margin: 0 auto;
+    background-color: white;
 }
 
 .nav-links {
@@ -251,6 +257,7 @@ body {
 @media (max-width: 1150px){
     .nav-bar {
         width: 90%;
+        padding: 0;
     }
     .date p{
         font-size: 15px;
