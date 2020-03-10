@@ -248,6 +248,14 @@ body {
     color: black;
 }
 
+.main-footer {
+    width: 60%;
+    margin: auto;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+
 @media (max-width: 1400px){
     #remove-first {
         display: none;
