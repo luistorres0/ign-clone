@@ -249,10 +249,15 @@ body {
 }
 
 .main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60%;
     margin: auto;
     height: 200px;
-    line-height: 200px;
+}
+
+.main-footer p{
     text-align: center;
 }
 
