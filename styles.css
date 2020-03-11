@@ -21,6 +21,7 @@ body {
     height: 95px;
     margin: 0 auto;
     background-color: white;
+    border-bottom: 1px solid #ccc;
 }
 
 .nav-links {
@@ -261,6 +262,15 @@ body {
     text-align: center;
 }
 
+.dummy-section h1{
+    padding: 30px 20%;
+}
+
+.dummy-section p{
+    text-align: justify;
+    padding: 10px 20%;
+}
+
 @media (max-width: 1400px){
     #remove-first {
         display: none;
@@ -290,10 +300,36 @@ body {
         width: 90%;
         margin: auto;
     }
-    
-}
 
+    .top-four-caption {
+        font-size: 15px;
+    }
+    
+    .top-stories-container h1{
+        font-size: 25px;
+    }
+    
+    .top-stories-container figcaption {
+        font-size: 15px;
+    }
+
+    .main-footer p{
+        font-size: 15px;
+    }
+
+    /* SECONDARY PAGES */
+    .dummy-section h1{
+        padding: 15px 5%;
+        font-size: 30px;
+    }
+    
+    .dummy-section p{
+        padding: 10px 5%;
+        font-size: 15px;
+    }
+}
 @media (max-width: 620px){
+    /* MAIN NAVIGATION */
     .nav-bar{
         width: 100%;
         height: 45px;
@@ -365,4 +401,75 @@ body {
     .small-news-links-bar{
         display: none;
     }
+
+    /* TOP FOUR */
+    .top-four-container {
+        flex-wrap: wrap;
+        padding: 40px 0;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .top-four-container img{
+        border-radius: 6px;
+        width: 100%;
+    }
+        
+    .top-four-container a{
+        box-sizing: border-box;
+        margin: 2px;
+        width: 48%;
+    }
+    
+    .top-four-caption {
+        font-size: 15px;
+    }
+
+    /* TOP STORIES */
+    .top-stories-container {
+        width: 100%;
+        background-color: #eee;
+    }
+
+    .top-stories-container div{
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .top-stories-container h1{
+        width: 90%;
+        font-size: 30px;
+        margin: 20px auto;
+    }
+        
+    .top-stories-container figcaption {
+        font-size: 15px;
+    }
+    
+    .top-stories-container a{
+        margin: 2px;
+        width: 48%;
+    }
+
+    /* FOOTER */
+    .main-footer {
+        width: 90%;
+    }
+    
+    .main-footer p{
+        font-size: 15px
+    }
+    
+    /* SECONDARY PAGES */
+    .dummy-section h1{
+        padding: 15px 10%;
+        font-size: 20px;
+    }
+    
+    .dummy-section p{
+        padding: 10px 10%;
+        font-size: 15px;
+    }
+    
 }
